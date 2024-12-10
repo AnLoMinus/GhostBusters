@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghostbusters Internet Tools</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Ghostbusters Internet Tools</h1>
+        <p>Explore the advanced tools from the Ghostbusters universe.</p>
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search tools..." onkeyup="searchTools()">
+        <i class="fas fa-search search-icon"></i>
+    </div>
+
+    <!-- Tool Sections -->
+    <div class="tool-section">
+        <h2>1. Online P.K.E. Scanner</h2>
+        <p>An app that detects paranormal activity using IoT sensors.</p>
+        <button class="expand-button" data-tool-id="1">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>2. Cloud Ghost Trap</h2>
+        <p>A cloud-based storage system for capturing ghosts remotely.</p>
+        <button class="expand-button" data-tool-id="2">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>3. Specter Tracker Wristband</h2>
+        <p>A wearable device that alerts users of nearby ghost movement.</p>
+        <button class="expand-button" data-tool-id="3">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>4. Ghost Recon Drones</h2>
+        <p>Autonomous drones equipped with thermal cameras to scan for ghosts.</p>
+        <button class="expand-button" data-tool-id="4">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>5. Ghost Data Analyzer</h2>
+        <p>An AI-powered platform for analyzing ghost data and providing insights.</p>
+        <button class="expand-button" data-tool-id="5">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>6. SpecterNet</h2>
+        <p>A social network for sharing ghost sightings and experiences.</p>
+        <button class="expand-button" data-tool-id="6">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>7. Ghost Alert Network</h2>
+        <p>A global system for real-time ghost activity alerts.</p>
+        <button class="expand-button" data-tool-id="7">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>8. Augmented Ghost Vision</h2>
+        <p>AR-powered glasses to visualize ghosts in real time.</p>
+        <button class="expand-button" data-tool-id="8">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>9. Virtual Ghost Containment</h2>
+        <p>A virtual storage solution for ghost containment.</p>
+        <button class="expand-button" data-tool-id="9">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>10. Digital Particle Thrower</h2>
+        <p>A web-connected weapon for tackling large-scale ghost threats.</p>
+        <button class="expand-button" data-tool-id="10">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>11. Ghost Translator</h2>
+        <p>An AI tool for translating ghost languages into human speech.</p>
+        <button class="expand-button" data-tool-id="11">More</button>
+    </div>
+
+    <div class="tool-section">
+        <h2>12. Smart Ghost Command Center</h2>
+        <p>An advanced interface for managing missions and tools.</p>
+        <button class="expand-button" data-tool-id="12">More</button>
+    </div>
+
+    <div id="toolModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2></h2>
+            </div>
+            <div class="modal-body">
+                <p class="modal-description"></p>
+                <div class="modal-details"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleDetails(id) {
+            const element = document.getElementById(id);
+            element.classList.toggle('hidden');
+        }
+    </script>
+</body>
+
+</html>
