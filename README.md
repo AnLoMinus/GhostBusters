@@ -2,7 +2,9 @@
 
 <img width="458" alt="image" src="https://github.com/user-attachments/assets/a0a66c2b-0629-4fcd-b8ba-a1da295759c2">
 
-A futuristic web application showcasing advanced paranormal investigation tools from the Ghostbusters universe. Built with modern web technologies and featuring a sleek, cyberpunk-inspired design.
+A futuristic web application showcasing advanced paranormal investigation tools from the Ghostbusters universe. 
+
+Built with modern web technologies and featuring a sleek, cyberpunk-inspired design.
 
 ## 🚀 Features
 
